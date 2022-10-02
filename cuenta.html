@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Cuenta</title>
+</head>
+<body>
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="cuenta.html" class="text-decoration-none text-white fs-5 fw-bold">Mi cuenta</a>
+          <a href="index.html" class="text-decoration-none text-white fs-5 fw-bold">Home</a>
+          <div>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+          </div>
+    
+        </div>
+      </header>
+      <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+    
+          <div class="row align-items-start">
+    
+            <div class="col-12 col-sm-4 mt-4">
+              <a href="historia.html" class="row text-decoration-none">
+                <div class="col-2 col-sm-12 mb-4">
+                  <img src="img/3.jpg" alt="" class="img-fluid" width="553" height="746" loading="lazy">
+                </div>
+                <div class="col-10">
+                  <h3>Historia</h3>
+                  <p>Desde el comienzo a la actualidad</p>
+                  <p>Conoce mas <i class="bi bi-arrow-right-short"></i></p>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-4 mt-4">
+              <a href="obras.html" class="row text-decoration-none">
+                <div class="col-2 col-sm-12 mb-4">
+                  <img src="img/2.jpg" alt="" class="img-fluid" width="553" height="746" loading="lazy">
+                </div>
+                <div class="col-10">
+                  <h3>Exponentes y Galeria</h3>
+                  <p>Obras de arte minimalistas</p>
+                  <a href="exponentes.html">Exponentes <i class="bi bi-arrow-right"></i></a> <br>
+                  <a href="obras.html">Galeria <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-sm-4 mt-4">
+              <a href="contacto.html" class="row text-decoration-none">
+                <div class="col-2 col-sm-12 mb-4">
+                  <img src="img/4.jpg" alt="Coffe Flavour" class="img-fluid" width="553" height="746" loading="lazy">
+                </div>
+                <div class="col-10">
+                  <h3>Contacto</h3>
+                  <p>Contactanos y deja tu obra</p>
+                  <p>Formulario a rellenar <i class="bi bi-arrow-right-short"></i></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+    
+          <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+          </button>
+    
+        </div>
+    
+      </nav>
+      <section class="hero">
+
+        <div class="hero__overlay"></div>
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="hero__video">
+          <source src="img/5.mp4" type="video/mp4">
+        </video>
+    
+        <div class="hero__content h-100 container-custom position-relative">
+          <div class="d-flex h-100 align-items-center hero__content-width">
+            <div class="text-white">
+              <h1 class="hero__heading fw-bold mb-4">Cuenta</h1>
+            </div>
+          </div>
+        </div>
+    
+        <a href="#scroll-down" class="hero__scroll-btn">
+          Iniciar sesion <i class="bi bi-arrow-down-short"></i>
+        </a>
+    
+      </section>
+      <a id="scroll-down"></a>
+
+      <section class="steps container-custom">
+    
+        <div class="row">
+            <div class="container w-75 mt-5 rounded shadow">
+                <div class="row align-items-stretch">
+                  <div class="col p-5 rounded-end">
+                    <h2 class="fw-bold text-center py-2">Iniciar sesion</h2>
+                    <form>
+                      <div class="mb-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" required>
+                      </div>
+                      <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" name="password" required>
+                      </div>
+                      <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Recordarme</label>
+                      </div>
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-dark">Iniciar sesion</button>
+                      </div>
+                      <div class="my-3">
+                        <span>No estas registrado? <a href="#scroll-down">Registrarse</a></span> <br>
+                        <span><a href="">Recuperar contraseña</a></span>
+                      </div>
+                    </form>
+            </div>
+    
+          </div>
+        </div>
+    
+      </section>
+
+      <section class="steps">
+    
+        <div class="container-custom">
+    
+            <div class="container w-75 mt-4 rounded shadow">
+                <div class="row align-items-stretch">
+                  <div class="col p-5 rounded-end">
+                    <h2 class="fw-bold text-center py-2">Registrarse</h2>
+                    <form method="post" action="">
+                        <div class="mb-2">
+                            <label for="text" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" name="name" required>
+                          </div>
+                          <div class="mb-2">
+                            <label for="text" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" name="user" required>
+                          </div>
+                      <div class="mb-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email"required>
+                      </div>
+                      <div class="mb-2">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" name="password" required>
+                      </div>
+                      <div class="mb-2">
+                        <label for="password" class="form-label">Repetir contraseña</label>
+                        <input type="password" class="form-control" name="password1" required>
+                      </div>
+                      <div class="mb-2 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Recordarme</label>
+                      </div>
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-dark">Registrarse</button>
+                      </div>
+                      <div class="my-3">
+                        <span>Estas registrado? <a href="#scroll-down">Inicia sesion</a></span>
+                      </div>
+                    </form>
+                </div>
+      </section>
+
+
+
+      <footer class="footer bg-light text-white">
+        <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="" class="me-2 text-muted text-decoration-none">
+              <span>&copy; 2022 Carlos Gobbo</span>
+            </a> 
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+            <li class="ms-3 "><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    </html>
